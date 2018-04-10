@@ -2,7 +2,7 @@ package com.baraa.bsoft.daggerloggin.root;
 
 import android.app.Application;
 
-import com.baraa.bsoft.daggerloggin.login.model.LoginModule;
+import com.baraa.bsoft.daggerloggin.login.LoginModule;
 
 
 public class App extends Application {

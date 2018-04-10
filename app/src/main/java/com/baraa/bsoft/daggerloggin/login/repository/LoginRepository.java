@@ -4,5 +4,5 @@ import com.baraa.bsoft.daggerloggin.login.model.User;
 
 public interface LoginRepository {
     User getUser();
-    void saveUser();
+    void saveUser(User user);
 }

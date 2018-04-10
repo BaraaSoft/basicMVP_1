@@ -1,5 +1,7 @@
 package com.baraa.bsoft.daggerloggin.login;
 
+import com.baraa.bsoft.daggerloggin.login.model.User;
+
 public interface LoginActivityMVP {
 
     interface View{
@@ -24,7 +26,7 @@ public interface LoginActivityMVP {
     interface Model{
 
         void createUser(String fname,String lname);
-        void getUser();
+        User getUser();
 
     }
 }
